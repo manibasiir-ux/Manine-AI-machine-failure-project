@@ -272,7 +272,7 @@ Installation
 
 1. Clone Repository
 
-https://github.com/manibasiir-ux/Manine-AI-machine-failure-project.git
+git clone https://github.com/manibasiir-ux/Manine-AI-machine-failure-project.git
 
 2. Open Project Folder
 
@@ -287,11 +287,10 @@ pip install -r requirements.txt
 
 How to Run the Project
 
----
-
-Run Dashboard
+1.Run dashboard
 
 streamlit run app.py
+
 
 After running, Streamlit automatically opens the dashboard in your browser.
 
