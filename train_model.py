@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 # =========================
-# LOAD DATA
+# LOAD DATA.
 # =========================
 
 df = pd.read_csv("machine_failure_dataset.csv")
@@ -26,7 +26,7 @@ X = df[feature_cols]
 y = df[target_col]
 
 # =========================
-# PREPROCESSING
+# PREPROCESSING.
 # =========================
 
 numerical_features = [
@@ -44,7 +44,7 @@ preprocessor = ColumnTransformer(transformers=[('num', numeric_transformer, nume
                                                ('cat', categorical_transformer, categorical_features)])
 
 # =========================
-# SPLIT
+# SPLIT.
 # =========================
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -55,7 +55,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y)
 
 # =========================
-# DECISION TREE MODEL
+# DECISION TREE MODEL.
 # =========================
 
 dt_pipeline = Pipeline(steps=[
@@ -69,7 +69,7 @@ dt_pipeline = Pipeline(steps=[
 dt_pipeline.fit(X_train, y_train)
 
 # =========================
-# RANDOM FOREST MODEL
+# RANDOM FOREST MODEL.
 # =========================
 
 rf_pipeline = Pipeline(steps=[
@@ -81,7 +81,7 @@ rf_pipeline = Pipeline(steps=[
 rf_pipeline.fit(X_train, y_train)
 
 # =========================
-# SAVE MODELS
+# SAVE MODELS.
 # =========================
 
 joblib.dump(
