@@ -171,14 +171,12 @@ Manine/
 ├── requirements.txt
 ├── README.md
 │
-├── data/
-│   └── machine_failure_dataset.csv
-│
-├── models/
-│   ├── decisiontree_machine_failure_model.pkl
-│   └── random_forest_explainer.pkl
-│
-└── assets/
+├── machine_failure_dataset.csv
+│    
+├── decisiontree_machine_failure_model.pkl
+├── random_forest_explainer.pkl
+
+
 ```
 
 ---
@@ -188,7 +186,7 @@ Manine/
 1. Clone Repository
 
 ```bash
-git clone https://github.com/manibasiir-ux/Manine-AI-machine-failure-project.git
+git clone https://github.com/manibasiir-ux/Manine.git
 ```
 
 2. Open Project Folder
