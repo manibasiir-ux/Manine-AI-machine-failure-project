@@ -91,12 +91,7 @@ Additional logic-based warnings for abnormal industrial conditions.
 
 Dashboard Preview
 
-Add project screenshots here later.
-
-Example:
-
-![Dashboard Preview](assets/dashboard.png)
-
+<img width="1920" height="926" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/9f5867fc-673b-4686-a1f4-7c9f4551b0b8" />
 
 ---
 
@@ -277,7 +272,7 @@ Installation
 
 1. Clone Repository
 
-git clone YOUR_REPOSITORY_LINK
+https://github.com/manibasiir-ux/Manine-AI-machine-failure-project.git
 
 2. Open Project Folder
 
@@ -291,20 +286,6 @@ pip install -r requirements.txt
 ---
 
 How to Run the Project
-
-Train Models
-
-python train_model.py
-
-This automatically:
-
-loads dataset
-
-trains models
-
-saves models into /models
-
-
 
 ---
 
