@@ -258,11 +258,11 @@ Robotics & Automation Enthusiast
 **Links**
 
 - GitHub:
-  [GitHub Profile](https://github.com/maniasiir-ux?utm_source=chatgpt.com)
+  [GitHub Profile](https://github.com/maniasiir-ux.com)
 - LinkedIn:
-  [LinkedIn Profile](https://linkedin.com/in/mani-basir?utm_source=chatgpt.com)
+  [LinkedIn Profile](https://linkedin.com/in/mani-basir.com)
 - Telegram:
-  [Telegram Profile](https://t.me/manibasir?utm_source=chatgpt.com)
+  [Telegram Profile](https://t.me/manibasir.com)
 
 ---
 
